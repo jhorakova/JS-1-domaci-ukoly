@@ -1,0 +1,131 @@
+/* Google fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i|Pacifico&subset=latin-ext');
+/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	padding: 50px;
+	font: 18px/1.5 sans-serif;
+	background-color: white;
+	color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Montserrat", serif;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+img {
+	margin: 30px 0;
+}
+
+li {
+	margin-bottom: 0.5em;
+}
+
+.napoveda {
+	margin-top: 50px;
+	padding: 20px;
+	border: 1px dashed tomato;
+	background-color: #f5f5f5;
+}
+
+.ctverecek {
+	width: 150px;
+	height: 150px;
+	text-align: center;
+	line-height: 150px;
+	background-color: yellow;
+	border: 1px solid black;
+	box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.25);
+}
+
+.tlacitko {
+	display: inline-block;
+	font-family: Monserrat, sans-serif;
+	font-size: 36px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	text-shadow: 1px 1px 0px #c5376d;
+	padding: 10px 30px;
+	position: relative;
+	cursor: pointer;
+	border: none;
+	background: #f78db5;
+	background-image: linear-gradient(bottom, #f78db5 0%, #ef5a92 100%);
+	border-radius: 5px;
+	box-shadow: 0px 5px 0px 0px #c5376d, 0px 10px 5px #999;
+}
+
+.tlacitko:active {
+	top: 3px;
+	box-shadow: 0px 2px 0px 0px #c5376d, 0px 5px 3px #999;
+}
+
+.obrazek {
+	display: block;
+	margin: 50px 0;
+}
+
+.ctverecek {
+	margin: 50px 0;
+	width: 200px;
+	height: 200px;
+	font-family: "Montserrat", sans-serif;
+	font-size: 120px;
+	font-weight: bold;
+	line-height: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 3px solid;
+	border-radius: 10px;
+}
+
+.zluty {
+	background-color: yellow;
+	color: red;
+	border-color: orange;
+}
+
+.zeleny {
+	background-color: greenyellow;
+	color: black;
+	border-color: green;
+}
+
+
+.aktivni {
+	background-color: cyan;
+	color: black;
+	border-color: blue;
+}
+
+.odstavec {
+	font-size: 16px;
+}
+
+.cerveny {
+	color: red;
+}

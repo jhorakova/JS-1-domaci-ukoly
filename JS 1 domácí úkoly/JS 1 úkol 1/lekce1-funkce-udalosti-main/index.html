@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Promenné a funkce</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<h1>Funkce a události</h1>
+
+	<button onclick = 'zmenBarvuNaZelenou()'>
+		Zmen barvu na zelenou
+	</button><br>
+</br>
+
+	<div class="ctverecek">Čtvereček</div>
+	
+</br>
+	<button onclick="zobrazVysledek()">
+		Zobraz vysledek
+		</button>
+	<pre>Tady bude výsledek: <span id="vysledek"></span></pre>
+
+	<button onclick="upozorni()">
+		Moje tlačítko
+	</button>
+
+	<div class="napoveda">
+		<h2>Zadání domácího úkolu</h2>
+
+		<ul>
+			<li>Vytvořte tlačítko, při jehož stisknutí se změní barva <strong>Čtvereček</strong> na zelenou.</li>
+			<li>Upravte kód tak, aby se výsledek funkce <em>secti()</em> zobrazil v prvku s ID <strong>vysledek</strong> až po stiknutí nově přidaného tlačítka "Zobraz výsledek".</li>
+			<li>Uprav funkci <em>upozorni()</em> tak, aby se navíc vypisoval text i do konzole a také nahradil text v elementu <strong>Čtvereček</strong>.</li>
+		</ul>
+	</div>
+	
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>

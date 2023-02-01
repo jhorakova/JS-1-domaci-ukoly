@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JavaScript a DOM</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Source+Sans+Pro:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<h1>Změna tříd, události</h1>
+
+	<p id="o" class="odstavec" onmouseover="ztucniText()" onmouseout="odtucniText()">V elipse spi lev</p>
+<br>
+	<button onclick="zmenNaCervenou()" class="tlacitko">Červený po kliknutí</button>
+<br>
+<br>
+	<button onclick="zvetseni()" class="tlacitko">Větší po kliknutí</button>
+<br>
+<br>
+	<h2>Můj přehrávač</h2>
+<br>
+	<button onclick="spustAudio()" class="tlacitko">PLAY</button>
+	<button onclick="zastavAudio()" class="tlacitko">STOP</button>
+	<button onclick="resetAudio()" class="tlacitko">RESET</button>
+<br>
+<br>
+	<button onclick="hlasitost0()" class="tlacitko">VOL 0</button>
+	<button onclick="hlasitost05()" class="tlacitko">VOL 0.5</button>
+	<button onclick="hlasitost1()" class="tlacitko">VOL 1</button>
+	
+
+	<div class="ctverecek zluty"></div>
+
+	<div class="ctverecek zeleny"></div>
+
+	<img class="obrazek" src="obrazky/kocka.jpg">
+
+	<button class="tlacitko">Čudlajs</button>
+
+
+	<audio class="mujPrehravac" src="audio/dingdingdang.mp3" preload="auto"></audio>
+
+
+<script src="main.js"></script>
+</body>
+</html>

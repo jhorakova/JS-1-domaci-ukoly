@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DOM a manipulace s obsahem stránky</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<h1 class="nadpis">JavaScript a DOM</h1>
+
+	<p class="odstavec">Učím se manipulovat s obsahem stránky. K tomu se používá divná a tajemná věc, které se říká DOM (Document Object Model). Pomocí ní mohu ke všm prvkům na stránce přistupovat jako k objektům a měnit jejich vlastnosti. Jako první chci zvládnout následující úkoly...</p>
+
+	<h2>Úkoly</h2>
+
+	<ul>
+		<li>JavaScriptem změnit barvu nadpisu.</li>
+		<li>Zvětšit velikost písma odstavce a/nebo ho udělat tučně nebo kurzívou.</li>
+		<li>Vyměnit obrázek kočky za psa. Koček je všude dost, nepotřebujeme tu další.</li>
+		<li>Přesunout čtvereček na jiné místo nebo ho otočit.</li>
+	</ul>
+
+
+	<img class='obrazek' src="kocka.jpg" alt="Zvíře neurčitého typu">
+
+
+	<div class="ctverecek">Čtvereček</div>
+
+
+	<div class="napoveda">
+		<h2>Jak to udělám?</h2>
+
+		<ul>
+			<li>Na konec stránky před značku <em>&lt;body&gt;</em> připojím soubor <strong>main.js</strong>, do kterého pak budu psát JavaScript.</li>
+			<li>V HTML přidám k elementu atribut <strong>class</strong> nebo <strong>id</strong>, nebo se nemusím a budu vybírat prosté HTML elementy, ale pak ponesu následky!</li>
+			<li>V JavaScriptu najdu daný HTML element pomocí <strong>document.querySelector(".class")</strong> nebo <strong>document.querySelector("#id")</strong> a uložím si ho do proměnné, se kterou budu nadále pracovat</li>
+			<li>HTML atributy nalezeného prvku změním pomocí <strong><em>prvek</em>.<em>attribut</em> = 'hodnota'</strong></li>
+			<li>CSS vlastnosti nalezeného prvku změním pomocí <strong><em>prvek</em>.style.<em>cssVlastnost</em> = 'hodnota'</strong></li>
+			<li>Vzpomenu si, jak se jmenují CSS vlastnosti pro barvu, písmo, atd. Víceslovné názvy vlastností (ty s pomlčkou) přepíšu v JavaScriptu do tzv. camelCase. Např. z <em>background-color</em> v CSS udělám v JavaScriptu <em>backgroundColor</em>.</li>
+		</ul>
+	</div>
+
+<script src = 'main.js'></script>
+</body>
+</html>
